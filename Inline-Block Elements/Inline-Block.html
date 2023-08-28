@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inline-Block level Elements</title>
+    <link rel="stylesheet" href="Inline-Blocl.css" class="css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo"><strong>Inline-Block level Elements</strong></div>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Feedback</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="block">
+        <h1>HTML Block and Inline Elements</h1>
+        <article>
+          In this article, we will know the HTML Block element & Inline element,
+          along with understanding the implementation through the example. Every
+          HTML documents that render the web content, will depend on the element
+          type i.e, block or inline which are default display values. We will
+          understand both these concepts through the examples.
+        </article>
+        <h3>
+          Q1:- Differentiate between inline and block-level elements in HTML.
+          Provide examples of each type.
+        </h3>
+        <aside>
+          <details>
+            <summary>
+              <strong style="color: red">CLICK HERE -></strong> Differentiate
+              Between inline and block-level elements -
+            </summary>
+            <p>
+              <strong>Inline elements :-</strong> Inline elements never start
+              from a new line. Inline elements only cover the space as bounded
+              by the tags in the HTML element. Inline elements do not have top
+              to bottom margin. Ex. span, br , a , img etc.
+            </p><br>
+            <p>
+              <strong>Block elements :-</strong> Block elements always start
+              from a new line . Block elements cover space from left to right as
+              far as it can go. Block elements have top to bottom margin. Ex.
+              div, p , hr etc.
+            </p><br>
+            <h4><li>Table tag , li tag , h4 tag , form tag</li></h4>
+            <div class="my1">
+              <div class="table">
+                <table>
+                  <tr>
+                    <th>Block element</th>
+                    <th>Inline element</th>
+                  </tr>
+                  <tr>
+                    <td>&lt;div&gt;</td>
+                    <td>&lt;span&gt;</td>
+                  </tr>
+                  <tr>
+                    <td>&lt;p&gt;</td>
+                    <td>&lt;a&gt;</td>
+                  </tr>
+                  <tr>
+                    <td>&lt;table&gt;</td>
+                    <td>&lt;img&gt;</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="form">
+                <form action="">
+                  <h3>Login</h3>
+                  <br />
+                  <label for="Username">Username</label><br />
+                  <input type="text" placeholder="Username" required /><br />
+                  <label for="Password">Password</label><br />
+                  <input
+                    type="password"
+                    placeholder="Password"
+                    required
+                  /><br />
+                  <input id="btn" type="submit" />
+                </form>
+              </div>
+            </div>
+            <div class="address">
+              <h4><li>Address tag, strong tag, anchor tag , img tag</li></h4>
+              <div class="address">
+                <p>Here we use address, strong ,anchor ,img tags:</p>
+                <address>
+                  <strong>&lt;address&gt; tag</strong> in HTML indicates the
+                  contact information of a person or an organization.
+                </address>
+                <a href="www.google.com">------Google-------</a>
+              </div>
+              <br>
+              <img src="god.jpg" height="500vh" width="900vw" />
+              <figure>This is &lt;img&gt; (Inline element)</figure>
+            </div>
+            <br />
+            <b><hr /></b>
+          </details>
+        </aside>
+
+        <h3>
+          Q2:- Explain the concept of an HTML element's default display type.
+          How can you change an element's display type using CSS?
+        </h3>
+        <aside>
+          <details>
+            <summary>
+              <strong style="color: red">CLICK HERE -></strong> Explaination
+            </summary>
+            <p>
+              The display property specifies if an element is displayed. Every
+              HTML element has a default display value depending on what type of
+              element it is. The default display value for most elements is
+              block or inline. We can change the elements display type with the
+              help of display property using CSS.
+            </p><br>
+            <h4>How to change &lt;span&gt; Inline element to Block element </h4><br>
+            <div class="display">
+              <span class="span">This is first example : &lt;span&gt; Inline to Block </span>
+              <span class="span"
+                >Here we use &lt;span&gt; and this is by default inline</span
+              >
+              <span class="span"
+                >so I changed the property of &lt;span&gt; from Inline to
+                Block</span
+              >
+            </div><br>
+            <h4>How to change &lt;li&gt; Block element to Inline element</h4>
+            <div class="li-inline">
+              <ul>
+                <li><a href=""></a>Mr.</li>
+                <li><a href=""></a>Abhay</li>
+                <li><a href=""></a>Rawat</li>
+              </ul>
+            </div>
+            <br />
+            <b><hr /></b>
+          </details>
+        </aside>
+        <h3>
+          Q3 :-Describe the purpose and usage of the &lt;span&gt; and
+          &lt;div&gt; elements in HTML. Provide examples of situations where
+          each might be used.
+        </h3>
+
+        <aside>
+          <details>
+            <summary>
+              <strong style="color: red">CLICK HERE -></strong> &lt;div&gt; and
+              &lt;span&gt; elements
+            </summary>
+            <p>
+              &lt;div&gt; tag :- div tag is block level element. Div tag used in
+              HTML to make divisions of content on web page.
+            </p>
+            <p>
+              &lt;span&gt; tag :- span tag is inline level element. Span tag
+              used to group elements for styling purpose.
+            </p>
+            <h3>&lt;div&gt; element : </h3><br>
+
+            <div class="myDiv">
+              <h2>This is a heading in a div element</h2>
+              <p>This is some text in a div element.</p>
+            </div>
+
+            <h3>&lt;span&gt; element :</h3><br>
+
+            <div class="myDiv2">
+              <h4>In this paragraph we used span element</h4>
+              <p>
+                My mother has
+                <span style="color: blue; font-weight: bold">blue</span> eyes
+                and my father has
+                <span style="color: darkolivegreen; font-weight: bold"
+                  >dark green</span
+                >
+                eyes.
+              </p>
+              <br />
+              <b><hr /></b>
+            </div>
+          </details>
+        </aside>
+      </div>
+    </div>
+    <footer>
+      <div>
+        <ul>
+          <li class="line1">Contact with us :</li>
+          <li class="line2"><a href="">9450679124</a></li>
+          <li class="line2"><a href="">8267840631</a></li>
+          <li class="line2"><a href="">8106978045</a></li>
+        </ul>
+        <ul>
+          <li class="line1">Services :</li>
+          <li class="line2"><a href="">www.google.com</a></li>
+          <li class="line2"><a href="">www.google.com</a></li>
+          <li class="line2"><a href="">www.google.com</a></li>
+        </ul>
+        <ul>
+          <li class="line1">Links :</li>
+          <li class="line2"><a href="">www.w3Shcool.com</a></li>
+          <li class="line2"><a href="">www.w3Shcool.com</a></li>
+          <li class="line2"><a href="">www.w3Shcool.com</a></li>
+        </ul>
+        <ul>
+          <li class="line1">Useful links :</li>
+          <li class="line2"><a href="">www.gkg.com</a></li>
+          <li class="line2"><a href="">www.w3Shcool.com</a></li>
+          <li class="line2"><a href="">www.w3Shcool.com</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
