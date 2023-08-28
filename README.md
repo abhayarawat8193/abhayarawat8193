@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @abhayarawat8193
-- 👀 I’m interested in creating website with the help of HTML,CSS,JavaScript, Bootstrap
+- 👀 I’m interested to creating website with the help of HTML,CSS,JavaScript, Bootstrap
 - 🌱 I’m currently learning PHP and laravel framework.
 - 📫 How to reach me : That is my personal email id : abhayrawat886@gamil.com
 
